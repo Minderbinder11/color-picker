@@ -162,9 +162,6 @@ var App = observer( class App extends React.Component {
         <div className="app-sidebar"> {/*  changing this to "app-sidebar-hidden" will hide this */}
           <div className="passing-color" style={styles.background} />
             <ColorFamilyInfoView currentFamily={this.state.currentFamily} />
-
-
-
         </div>
     </div>
 
